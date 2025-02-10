@@ -357,22 +357,22 @@
   
   /* Background images for cards */
   .card:nth-child(1) {
-    background-image: url('dataimages/c3.jpg');
+    background-image: url('dataimages/c3.jpg'); /* image according to you*/
   }
   .card:nth-child(2) {
-    background-image: url('dataimages/c2.jpg');
+    background-image: url('dataimages/c2.jpg'); /* image according to you*/
   }
   .card:nth-child(3) {
-    background-image: url('dataimages/c1.jpg');
+    background-image: url('dataimages/c1.jpg'); /* image according to you*/
   }
   .card:nth-child(4) {
-    background-image: url('dataimages/c4.jpg');
+    background-image: url('dataimages/c4.jpg'); /* image according to you*/
   }
   .card:nth-child(5) {
-    background-image: url('dataimages/multicurre.jpg');
+    background-image: url('dataimages/multicurre.jpg'); /* image according to you*/
   }
   .card:nth-child(6) {
-    background-image: url('dataimages/files1.jpg');
+    background-image: url('dataimages/files1.jpg'); /* image according to you*/
   }
   
   
@@ -493,7 +493,7 @@
     width: 50%;
     height: 95%;
     background-color: #000000;
-    background-image: url("dataimages/first10.png");
+    background-image: url("dataimages/first10.png"); /* image and description according to you*/
     background-size: cover;
   }
   
@@ -508,7 +508,7 @@
     width: 50%;
     background-color: rgb(255, 255, 255);
     height: 100%;
-    background-image: url("dataimages/rr12.png");
+    background-image: url("dataimages/rr12.png"); /* image and description according to you*/
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -613,7 +613,7 @@
     width: 50%;
     height: 95%;
     background-color: #000000;
-    background-image: url("dataimages/vv1.png");
+    background-image: url("dataimages/vv1.png"); /* image and description according to you*/
     background-size: cover;
     border-radius: 20px;
     border: 2px solid rgb(51, 50, 52);
@@ -632,7 +632,7 @@
     width: 50%;
     background-color: rgb(255, 255, 255);
     height: 100%;
-    background-image: url("dataimages/db123.png");
+    background-image: url("dataimages/db123.png"); /* image and description according to you*/
     background-size: cover;
     border-radius: 20px;
     border: 2px solid rgb(51, 50, 52);
