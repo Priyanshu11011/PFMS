@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Personal Finance Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#"><img src="dataimages/mylogo00.png" alt="Navigation Logo" /></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#help">Help</a></li>
+    </ul>
+    <div class="auth-links">
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Take Control of Your Finances, One Step at a Time.</h1>
+        <p>
+          Empower your financial journey with smart budgeting, insightful
+          tracking, and personalized goal setting—all in one intuitive platform.
+        </p>
+        <div class="hero-buttons">
+          <a href="/login" class="btn btn-login">Login</a>
+          <a href="/signup" class="btn btn-get-started">Get Started</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <div id="red" class="red-box"></div>
+          <div id="yellow" class="red-box"></div>
+          <div id="blue" class="red-box"></div>
+          <img src="dataimages/mylogo00.png" alt="Hero Logo" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features" id="features">
+      <h2>Features</h2>
+
+      <!-- Left Arrow -->
+      <button class="arrow left-arrow">&larr;</button>
+
+      <!-- Card Slider -->
+      <div class="feature-cards">
+        
+        <!-- CARD 1 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>Smart Budgeting</h3>
+            <p>
+              Set and manage budgets effortlessly, track spending, and achieve your
+              financial goals.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>Expense Tracking</h3>
+            <p>
+              Track daily, monthly, or yearly expenses with detailed insights and
+              graphs.
+            </p>
+          </div>
+        </div>
+        <!-- CARD 3 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>Goal Setting</h3>
+            <p>
+              Set financial goals, monitor progress, and stay motivated to save
+              smarter.
+            </p>
+          </div>
+        </div>
+        <!-- CARD 4 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>Reports & Analytics</h3>
+            <p>
+              Generate insightful reports with personalized analytics to make
+              informed decisions.
+            </p>
+          </div>
+        </div>
+        <!-- CARD 5 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>Multi-Currency Support</h3>
+            <p>Convert and manage expenses in different currencies.</p>
+          </div>
+        </div>
+        <!-- CARD 6 -->
+        <div class="card">
+          <div class="card-content">
+            <h3>CSV for Expense Reports</h3>
+            <p>Users can add expenses in CSV format. Monthly as well as daily.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Arrow -->
+      <button class="arrow right-arrow">&rarr;</button>
+
+      <!-- Circle Navigation (6 circles for 6 cards) -->
+      <div class="circle-navigation">
+        <span class="circle active"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+      </div>
+    </section>
+
+    <section class="images">
+      <div class="imc1">
+        <div class="im1">
+          <div class="c11"></div>
+          <div class="bckc">
+            <p class="fallb">Set your own budget limits in multiple currencies.</p>
+          </div>
+        </div>
+        <div class="im2"></div>
+      </div>
+      <div class="imc2">
+        <div class="im3"></div>
+        <div class="im4">
+          <div class="c13"></div>
+          <div class="bckc3">
+            <p class="fall1">Plan your financial future by setting achievable goals.</p>
+          </div>
+        </div>
+      </div>
+      <div class="imc3">
+        <div class="im5">
+          <div class="c12"></div>
+          <div class="bckc2">
+            <p class="fall2">Stay on top of your spending! Add and manage your expenses.</p>
+          </div>
+        </div>
+        <div class="im6"></div>
+      </div>
+      <div class="imc4">
+        <div class="im7"></div>
+        <div class="im8">
+          <div class="c14"></div>
+          <div class="bckc4">
+            <p class="fall">Analyze your financial data with interactive charts and reports.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div> <!-- /.main-container -->
+
+  <footer>
+    <div class="flogo">
+      <a href="#"><img src="dataimages/mylogo00.png" alt="Navigation Logo" /></a>
+    </div>
+    <p class="fp">Personal Finance Management System.</p>
+  </footer>
+
+  <!-- Defer the script so the DOM loads first -->
+  <script src="iscript.js" defer></script>
+</body>
+</html>
